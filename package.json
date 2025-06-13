@@ -1,0 +1,21 @@
+{
+  "name": "twilio-webhook-server",
+  "version": "1.0.0",
+  "description": "Fastify server for handling Twilio webhooks with proper form body parsing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "@fastify/formbody": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["twilio", "webhook", "fastify", "sms", "voice"],
+  "author": "Abacus.AI",
+  "license": "MIT"
+}
